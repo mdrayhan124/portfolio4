@@ -1,0 +1,15 @@
+.f-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 100px;
+    background: var(--orange);
+    color: white;
+}
+
+.f-left>a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 35px;
+}

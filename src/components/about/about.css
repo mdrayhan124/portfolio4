@@ -1,0 +1,43 @@
+.wrapper{
+    margin-top: 50px;
+    display: flex;
+}
+
+.line{
+    height: 2px;
+    width: 1000px;
+    background: var(--orange);
+    margin: auto; 
+}
+
+.a-heding{
+    width: 600px;
+}
+
+.a-heding>h4{
+  color: var(--orange);
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.a-heding>h4>span{
+    font-weight: 600;
+    color: var(--black);
+}
+
+.left{
+    flex: 1;
+    padding: 20px;
+}
+
+.right{
+    flex: 1;
+    margin-left: 50px;
+}
+
+.right>*{
+    height: 400px;
+    width: 600px;
+}

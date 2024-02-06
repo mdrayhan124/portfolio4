@@ -1,0 +1,44 @@
+.w-wrapper {
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    margin: auto;
+    gap: 4rem;
+    margin-top: 50px;
+}
+
+.worklist {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background: #FCA61F;
+    border-radius: 999px;
+    box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+    transition: .4s;
+    height: 100px;
+}
+
+.worklist:hover{
+    scale: 1.1;
+    z-index: 10;
+}
+
+.worklist>:nth-child(2) {
+    color: white;
+    margin-left: 100px;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: var(--boxShadow);
+}
+
+
+
+
+.w-img>img {
+    height: 200px;
+    width: 400px;
+    margin-left: 100px;
+    transform: rotate(10deg);
+    border: 10px solid #ffb43b;
+}
