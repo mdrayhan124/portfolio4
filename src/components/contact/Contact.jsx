@@ -11,6 +11,7 @@ const Contact = () => {
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className="c-wrapper">
+        <a className='anchor' id='contact'></a>
       <motion.div
         variants={fadeIn("up", "tween", .4, .3)}
         className="c-heading">

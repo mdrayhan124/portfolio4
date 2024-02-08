@@ -20,6 +20,7 @@ const Work = () => {
                 variants={slideIn("left", "tween", 4, .4)}
                 className="worklist">
                 <div className="w-img">
+                    <a className='anchor' id='work'></a>
                     <img src={Bg} alt="" />
                 </div>
                 <h5>Neuron Nursing Coaching</h5>

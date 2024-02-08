@@ -16,8 +16,9 @@ const About = () => {
 
       </div>
       <motion.div
-        variants={fadeIn("right", "tween",  1*0.2, 1)}
+        variants={fadeIn("right", "tween", 1 * 0.2, 1)}
         className="wrapper">
+        <a className='anchor' id='about'></a>
         <div className="left">
           <div className="a-heding">
             <h4>H Al Hasib<span>(Editor of Neuron Publication)</span></h4>

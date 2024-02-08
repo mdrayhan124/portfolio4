@@ -1,5 +1,5 @@
 .w-wrapper {
-    padding: 10rem 0;
+    padding: 10rem 1rem;
     display: flex;
     flex-direction: column;
     max-width: 1600px;
@@ -20,14 +20,14 @@
 }
 
 .worklist:hover{
-    scale: 1.1;
+    scale: 1.02;
     z-index: 10;
 }
 
 .worklist>:nth-child(2) {
     color: white;
     margin-left: 100px;
-    font-size: 48px;
+    font-size:clamp(48px,1rem+10vh,6rem);
     font-weight: bold;
     text-shadow: var(--boxShadow);
 }

@@ -12,6 +12,7 @@ const Intro = () => {
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className="i-wrapper">
+        <a className='anchor' id='home'></a>
       <motion.div
       variants={fadeIn("right", "tween", 0.2, 1)}
       className="i-left">
@@ -20,7 +21,9 @@ const Intro = () => {
           <span>I'm Habibullah Al Hasib</span>
           <span>I am an enthusiastic editor and writer with a deep commitment to fostering scientific communication and education.</span>
         </div>
+        <a href="#contact">
         <button className='button i-button'>connect for a meeting</button>
+        </a>
       </motion.div>
       <motion.div
       variants={fadeIn("left", "tween", 0.5, 1.3)}
