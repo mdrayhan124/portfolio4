@@ -26,7 +26,7 @@ const NavBar = () => {
             </div>
             <div className="n-left">
                 {
-                    widowSize >= 735 ? <div className='b-n-list'>
+                    widowSize >= 736 ? <div className='b-n-list'>
                         <div className="n-list">
                             <ul>
                                 <li><a href="#home">home</a></li>

@@ -32,7 +32,7 @@ const Books = () => {
                 <motion.div
                     variants={fadeIn("left", "tween", 0.2, 1)}
                     className="right-side">
-                    {wsize <= 375 ?
+                    {wsize <= 768 ?
                         <div className="ss-cards">
                             <div className="ss-card">
                                 <img src={Book} alt="" />
