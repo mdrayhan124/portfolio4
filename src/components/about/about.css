@@ -41,3 +41,30 @@
     height: 400px;
     width: 600px;
 }
+
+@media screen and (max-width:414px) {
+    .wrapper{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .left{
+        padding: 0;
+    }
+
+    .right>*{
+        height: 100%;
+        width: 100%;
+    }
+
+    .a-heding{
+        width: 100%;
+    }
+
+    .right{
+        flex: 1;
+        margin-left: 0px;
+    }
+    
+
+}

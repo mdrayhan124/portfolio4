@@ -42,3 +42,34 @@
     transform: rotate(10deg);
     border: 10px solid #ffb43b;
 }
+
+@media screen and (max-width:376px) {
+    .w-wrapper {
+        padding: 10rem 1rem;
+        display: flex;
+        flex-direction: column;
+        max-width: 1600px;
+        margin: auto;
+        gap: 4rem;
+        margin-top: 20px;
+    }
+
+    .w-img>img {
+        height: 80%;
+        width: 80%;
+        margin: auto;
+        transform: rotate(1deg);
+        border: 10px solid #ffb43b;
+    }
+
+    .worklist {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        background: #FCA61F;
+        border-radius: 999px;
+        box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+        transition: .4s;
+        height: 100%;
+    }
+}

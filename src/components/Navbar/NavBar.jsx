@@ -26,7 +26,7 @@ const NavBar = () => {
             </div>
             <div className="n-left">
                 {
-                    widowSize >= 736 ? <div className='b-n-list'>
+                    widowSize >= 800 ? <div className='b-n-list'>
                         <div className="n-list">
                             <ul>
                                 <li><a href="#home">home</a></li>
@@ -34,9 +34,9 @@ const NavBar = () => {
                                 <li><a href="#books">books</a></li>
                                 <li><a href="#work">work</a></li>
                             </ul>
-                        <a href="#contact">
-                            <button className='button'>contact me</button>
-                        </a>
+                            <a href="#contact">
+                                <button className='button'>contact me</button>
+                            </a>
                         </div>
                     </div>
                         : <div>
@@ -52,9 +52,9 @@ const NavBar = () => {
                                                 <li><a href="#books">books</a></li>
                                                 <li><a href="#work">work</a></li>
                                             </ul>
-                                        <a href="#contact">
-                                            <button className='button'>contact me</button>
-                                        </a>
+                                            <a href="#contact">
+                                                <button className='button'>contact me</button>
+                                            </a>
                                         </div>
                                     </div>
                                 )

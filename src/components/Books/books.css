@@ -121,3 +121,22 @@
     }
 
 }
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        max-width:100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .heding{
+        margin-top: 1rem;
+    }
+    
+    .right-side{
+        padding: 0 1rem;
+       margin-bottom: 1rem;
+    }
+}
