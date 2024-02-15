@@ -70,3 +70,53 @@
     width: 150px;
     border-radius: 10px;
 }
+
+.ss-cards{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ss-card{
+    padding: 10px;
+    background: var(--black);
+    border-radius: 10px;
+}
+
+.ss-card>*{
+    height: 200px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+}
+
+@media screen and (max-width: 376px) {
+    .wrapper{
+        max-width:100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .heding{
+        margin-top: 0;
+    }
+    
+
+    .line{
+        height: 2px;
+        width: 100%;
+        background: var(--orange);
+        margin: auto;
+    }
+
+    .left-side{
+        padding-left: 1rem;
+    }
+
+    .right-side{
+        padding-right: 1rem;
+    }
+
+}

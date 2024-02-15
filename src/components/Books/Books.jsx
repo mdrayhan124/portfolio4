@@ -7,6 +7,8 @@ import { motion } from 'framer-motion'
 import { fadeIn, staggerContainer } from '../../motionData/motion';
 
 const Books = () => {
+    const wsize = window.innerWidth;
+    console.log(wsize);
     return (
         <motion.div
             variants={staggerContainer}
@@ -30,17 +32,32 @@ const Books = () => {
                 <motion.div
                     variants={fadeIn("left", "tween", 0.2, 1)}
                     className="right-side">
-                    <div className="cards">
-                        <div className="card">
-                            <img src={Book} alt="" />
+                    {wsize <= 375 ?
+                        <div className="ss-cards">
+                            <div className="ss-card">
+                                <img src={Book} alt="" />
+                            </div>
+                            <div className="ss-card">
+                                <img src={Book2} alt="" />
+                            </div>
+                            <div className="ss-card">
+                                <img src={Book3} alt="" />
+                            </div>
                         </div>
-                        <div className="card">
-                            <img src={Book2} alt="" />
+                        :
+                        <div className="cards">
+                            <div className="card">
+                                <img src={Book} alt="" />
+                            </div>
+                            <div className="card">
+                                <img src={Book2} alt="" />
+                            </div>
+                            <div className="card">
+                                <img src={Book3} alt="" />
+                            </div>
                         </div>
-                        <div className="card">
-                            <img src={Book3} alt="" />
-                        </div>
-                    </div>
+                    }
+
                 </motion.div>
             </div>
         </motion.div>
